@@ -5,7 +5,13 @@
  * @returns {Number} el resultat de la operacio
  */
 function suma(...valors) {
+    let resultado = 0;
 
+    for (let i = 0; i < valors.length; i++) {
+        resultado += valors;
+    }
+
+    return resultado;
 }
 
 
