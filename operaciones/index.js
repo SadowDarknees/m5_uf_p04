@@ -16,7 +16,13 @@ function suma(...valors) {
  * @returns {Number} el resultat de la operacio
  */
 function multiplica(...valors) {
+    let resultado = 1;
 
+    for(let valor of valors) {
+        resultado * valor;
+    }
+
+    return resultado;
 }
 
 module.exports.suma = suma;
