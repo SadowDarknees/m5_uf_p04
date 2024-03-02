@@ -8,7 +8,7 @@ function suma(...valors) {
     let resultado = 0;
 
     for (let i = 0; i < valors.length; i++) {
-        resultado += valors;
+        resultado += valors[i];
     }
 
     return resultado;
@@ -25,7 +25,7 @@ function multiplica(...valors) {
     let resultado = 1;
 
     for(let valor of valors) {
-        resultado * valor;
+        resultado *= valor;
     }
 
     return resultado;
